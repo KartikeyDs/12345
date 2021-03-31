@@ -37,20 +37,20 @@ function preload() {
 storm_so = loadSound("/Sound/storm_s.mp3");
 
 //Buttons:-
-start_btn_Img = loadImage("/images/Buttons/e.png");
+start_btn_Img = loadImage("/Buttons/e.png");
 
 
-bg_home_Img = loadAnimation("/images/Home/_0.png","/images/Home/_1.png","/images/Home/_2.png","/images/Home/_3.png","/images/Home/_4.png","/images/Home/_5.png","/images/Home/_6.png","/images/Home/_7.png","/images/Home/_8.png","/images/Home/_9.png","/images/Home/_10.png","/images/Home/_11.png","/images/Home/_12.png");
+bg_home_Img = loadAnimation("/Home/_0.png","/Home/_1.png","/Home/_2.png","/Home/_3.png","/Home/_4.png","/Home/_5.png","/Home/_6.png","/Home/_7.png","/Home/_8.png","/Home/_9.png","/Home/_10.png","/Home/_11.png","/Home/_12.png");
 
-storm_Img = loadAnimation("/images/Story/0.png ", "/images/Story/1.png","/images/Story/2.png", "/images/Story/3.png", "/images/Story/4.png", "/images/Story/5.png", "/images/Story/6.png", "/images/Story/7.png", "/images/Story/8.png", "/images/Story/9.png", "/images/Story/10.png", "/images/Story/11.png", "/images/Story/12.png", "/images/Story/13.png", "/images/Story/14.png", "/images/Story/15.png", "/images/Story/16.png", "/images/Story/17.png", "/images/Story/18.png", "/images/Story/19.png", "/images/Story/20.png", "/images/Story/21.png", "/images/Story/22.png", "/images/Story/23.png", "/images/Story/24.png", "/images/Story/25.png", "/images/Story/26.png", "/images/Story/27.png", "/images/Story/28.png", "/images/Story/29.png", "/images/Story/30.png", "/images/Story/31.png", "/images/Story/32.png", "/images/Story/33.png", "/images/Story/34.png", "/images/Story/35.png");
-island_Img = loadAnimation("/images/Story/36.png", "/images/Story/37.png", "/images/Story/38.png", "/images/Story/39.png", "/images/Story/40.png", "/images/Story/41.png", "/images/Story/42.png", "/images/Story/43.png", "/images/Story/44.png", "/images/Story/45.png", "/images/Story/46.png", "/images/Story/47.png", "/images/Story/48.png", "/images/Story/49.png")
+storm_Img = loadAnimation("/Story/0.png ", "/Story/1.png","/Story/2.png", "/Story/3.png", "/Story/4.png", "/Story/5.png", "/Story/6.png", "/Story/7.png", "/Story/8.png", "/Story/9.png", "/Story/10.png", "/Story/11.png", "/Story/12.png", "/Story/13.png", "/Story/14.png", "/Story/15.png", "/Story/16.png", "/Story/17.png", "/Story/18.png", "/Story/19.png", "/Story/20.png", "/Story/21.png", "/Story/22.png", "/Story/23.png", "/Story/24.png", "/Story/25.png", "/Story/26.png", "/Story/27.png", "/Story/28.png", "/Story/29.png", "/Story/30.png", "/Story/31.png", "/Story/32.png", "/Story/33.png", "/Story/34.png", "/Story/35.png");
+island_Img = loadAnimation("/Story/36.png", "/Story/37.png", "/Story/38.png", "/Story/39.png", "/Story/40.png", "/Story/41.png", "/Story/42.png", "/Story/43.png", "/Story/44.png", "/Story/45.png", "/Story/46.png", "/Story/47.png", "/Story/48.png", "/Story/49.png")
 
-bricks_1_Img = loadImage("/images/level/Bricks.png");
-jin_a_Img = loadAnimation("/images/Hero/Hero a/a_0.png","/images/Hero/Hero a/a_1.png","/images/Hero/Hero a/a_2.png","/images/Hero/Hero a/a_3.png","/images/Hero/Hero a/a_4.png","/images/Hero/Hero a/a_5.png","/images/Hero/Hero a/a_6.png","/images/Hero/Hero a/a_7.png","/images/Hero/Hero a/a_8.png","/images/Hero/Hero a/a_9.png",)
+bricks_1_Img = loadImage("/level/Bricks.png");
+jin_a_Img = loadAnimation("/Hero a/a_0.png","/Hero a/a_1.png","/Hero a/a_2.png","/Hero a/a_3.png","/Hero a/a_4.png","/Hero a/a_5.png","/Hero a/a_6.png","/Hero a/a_7.png","/Hero a/a_8.png","/Hero a/a_9.png",)
 
-l = loadAnimation("/images/Hero/Hero a_l/a_0.png","/images/Hero/Hero a_l/a_1.png","/images/Hero/Hero a_l/a_2.png","/images/Hero/Hero a_l/a_3.png","/images/Hero/Hero a_l/a_4.png","/images/Hero/Hero a_l/a_5.png","/images/Hero/Hero a_l/a_6.png","/images/Hero/Hero a_l/a_7.png","/images/Hero/Hero a_l/a_8.png","/images/Hero/Hero a_l/a_9.png")
-bomb_Img = loadAnimation("/images/Bomb/1.png","/images/Bomb/2.png","/images/Bomb/3.png","/images/Bomb/4.png","/images/Bomb/5.png","/images/Bomb/6.png","/images/Bomb/7.png","/images/Bomb/8.png","/images/Bomb/9.png","/images/Bomb/10.png","/images/Bomb/11.png","/images/Bomb/12.png",)
-question_b_Img = loadAnimation("/images/question box/0.png","/images/question box/1.png","/images/question box/2.png","/images/question box/3.png")
+//l = loadAnimation("/Hero/Hero a_l/a_0.png","/Hero/Hero a_l/a_1.png","/Hero/Hero a_l/a_2.png","/Hero/Hero a_l/a_3.png","/Hero/Hero a_l/a_4.png","/Hero/Hero a_l/a_5.png","/Hero/Hero a_l/a_6.png","/Hero/Hero a_l/a_7.png","/Hero/Hero a_l/a_8.png","/Hero/Hero a_l/a_9.png")
+bomb_Img = loadAnimation("/Bomb/1.png","/Bomb/2.png","/Bomb/3.png","/Bomb/4.png","/Bomb/5.png","/Bomb/6.png","/Bomb/7.png","/Bomb/8.png","/Bomb/9.png","/Bomb/10.png","/Bomb/11.png","/Bomb/12.png",)
+question_b_Img = loadAnimation("/question box/0.png","/question box/1.png","/question box/2.png","/question box/3.png")
 
 }
 
