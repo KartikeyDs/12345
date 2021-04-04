@@ -88,7 +88,7 @@ island_Img = loadAnimation("/Story/36.png", "/Story/37.png", "/Story/38.png", "/
 jin_a_Img = loadAnimation("/Hero a/a_0.png","/Hero a/a_1.png","/Hero a/a_2.png","/Hero a/a_3.png","/Hero a/a_4.png","/Hero a/a_5.png","/Hero a/a_6.png","/Hero a/a_7.png","/Hero a/a_8.png","/Hero a/a_9.png",)
 l = loadAnimation("/Hero a_l/a_0.png","/Hero a_l/a_1.png","/Hero a_l/a_2.png","/Hero a_l/a_3.png","/Hero a_l/a_4.png","/Hero a_l/a_5.png","/Hero a_l/a_6.png","/Hero a_l/a_7.png","/Hero a_l/a_8.png","/Hero a_l/a_9.png")
 bomb_Img = loadAnimation("/Bomb/1.png","/Bomb/2.png","/Bomb/3.png","/Bomb/4.png","/Bomb/5.png","/Bomb/6.png","/Bomb/7.png","/Bomb/8.png","/Bomb/9.png","/Bomb/10.png","/Bomb/11.png","/Bomb/12.png",)
-question_b_Img = loadAnimation("/question box/0.png","/question box/1.png","/question box/2.png","/question box/3.png")
+question_b_Img = loadAnimation("/question box/q_0.png","/question box/q_1.png","/question box/q_2.png","/question box/q_3.png")
 mob_Img = loadAnimation("/Mob/1.png","/Mob/2.png","/Mob/3.png","/Mob/4.png","/Mob/5.png","/Mob/6.png","/Mob/7.png","/Mob/8.png",)
 
 }
